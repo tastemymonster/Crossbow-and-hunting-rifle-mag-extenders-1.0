@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Magazine-Crossbow-Huntingrifle" />
+		<Description value="Adds Repeating Crossbow Mod and Magazine to Huntingrifle with 2 and 4 extra Bullets" />
+		<Author value="Tastemymonster" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

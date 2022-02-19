@@ -1,0 +1,51 @@
+<configs>
+
+
+<append xpath="/item_modifiers">
+
+	<item_modifier name="Crossbow Repeater" installable_tags="crossbow" modifier_tags="magazine" type="attachment">
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="Modcrossbowrepeater"/>
+		<property name="DescriptionKey" value="modGunMagazineExtenderDesc"/>
+		<!--Adds increased Ammunition-->
+		<effect_group tiered="false">
+		<!--
+			<passive_effect name="MagazineSize" operation="perc_add" value=".5"/>
+		-->
+			<passive_effect name="MagazineSize" operation="base_add" value="2"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="Rifle small Magazine" installable_tags="magazine,huntingrifle" modifier_tags="magazine" type="attachment">
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="modGunMagazinePlusTwo"/>
+		<property name="DescriptionKey" value="modGunMagazineExtenderDesc"/>
+		<!--Adds increased Ammunition-->
+		<effect_group tiered="false">
+		<!--
+			<passive_effect name="MagazineSize" operation="perc_add" value=".5"/>
+		-->
+			<passive_effect name="MagazineSize" operation="base_add" value="2"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	<item_modifier name="Rifle large Magazine" installable_tags="magazine,huntingrifle" modifier_tags="magazine" type="attachment">
+		<property name="Stacknumber" value="1"/>
+		<property name="CustomIcon" value="modGunMagazinePlusFour"/>
+		<property name="DescriptionKey" value="modGunMagazineExtenderDesc"/>
+		<!--Adds increased Ammunition-->
+		<effect_group tiered="false">
+		<!--
+			<passive_effect name="MagazineSize" operation="perc_add" value=".5"/>
+		-->
+			<passive_effect name="MagazineSize" operation="base_add" value="4"/>
+		</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+
+</append>
+
+
+</configs>

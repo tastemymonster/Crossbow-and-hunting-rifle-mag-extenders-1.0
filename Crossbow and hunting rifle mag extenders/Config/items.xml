@@ -1,0 +1,11 @@
+<configs>
+
+
+<remove xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@name='Tags']" />
+<append xpath="/items/item[@name='gunRifleT1HuntingRifle']">
+      <property name="Tags" value="weapon,huntingrifle,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,bottomAttachments,perkDeadEye"/>
+</append>
+
+
+
+</configs>
